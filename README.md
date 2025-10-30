@@ -1,22 +1,18 @@
 # 🌎 Earthquake Visualizer
 
 > **A real-time interactive map showing recent global earthquake activity**  
-> Built for **Casey**, a geography student, to visualize seismic patterns using the **USGS Earthquake API**.
-
 ---
 
 ## 🧭 Overview
 
 The **Earthquake Visualizer** is a web application that displays live earthquake data on an interactive world map.  
-Users can explore earthquake magnitudes, locations, and times, with filtering options to focus on specific magnitudes.  
-It’s designed to be simple, responsive, and informative — ideal for both students and enthusiasts studying global seismic activity.
-
+Users can explore earthquake magnitudes, locations, and times, with filtering options to focus on specific magnitudes. 
 ---
 
 ## 🚀 Features
 
-- 🗺️ **Interactive Map** – Built with [React Leaflet](https://react-leaflet.js.org/) for smooth map interactions.  
-- 🌍 **Real-time Data** – Fetches live earthquake updates from the [USGS Earthquake API](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson).  
+- 🗺️ **Interactive Map** – Built with [React Leaflet] for smooth map interactions.  
+- 🌍 **Real-time Data** – Fetches live earthquake updates from the [USGS Earthquake API].  
 - ⚡ **Magnitude Filter** – View earthquakes by minimum magnitude (1.0+, 2.0+, etc.).  
 - 📱 **Responsive Design** – Works seamlessly across desktop, tablet, and mobile.  
 - 🧩 **Error Handling** – Graceful fallback messages for network errors or no data.  
